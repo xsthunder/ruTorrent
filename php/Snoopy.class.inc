@@ -47,8 +47,8 @@ class Snoopy
 	var $host		=	"www.php.net";		// host name we are connecting to
 	var $port		=	80;			// port we are connecting to
         var $proxy_proto	=       "http";			// http or https
-	var $proxy_host		=	"";			// proxy host to use
-	var $proxy_port		=	"";			// proxy port to use
+	var $proxy_host		=	"127.0.0.1";			// proxy host to use
+	var $proxy_port		=	"20171";			// proxy port to use
 	var $agent		=	"Snoopy v1.0";		// agent we masquerade as
 	var $referer		=	"";			// referer info to pass
 	var $cookies		=	array();		// array of cookies to pass
